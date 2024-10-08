@@ -28,7 +28,9 @@ class ob extends orang {
 const orang1 = new Orang();
 const mahasiswa1 = new Mahasiswa();
 const dosen1 = new Dosen();
+const ob1 = new Ob();
 
 orang1.tampilkanPeran();    // Output: Peran: Orang biasa
 mahasiswa1.tampilkanPeran(); // Output: Peran: Mahasiswa
 dosen1.tampilkanPeran();     // Output: Peran: Dosen
+ob1.tampilkanperan():
