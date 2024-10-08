@@ -18,6 +18,12 @@ class Dosen extends Orang {
     }
 }
 
+class ob extends orang {
+    tapilkanperan() {
+        console.log("peran : ob");
+    }
+}
+
 // Menggunakan polimorfisme
 const orang1 = new Orang();
 const mahasiswa1 = new Mahasiswa();
