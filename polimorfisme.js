@@ -5,22 +5,24 @@ class Orang {
     }
 }
 
-// Definisi kelas turunan
+// Definisi kelas turunan Mahasiswa
 class Mahasiswa extends Orang {
     tampilkanPeran() {
         console.log("Peran: Mahasiswa");
     }
 }
 
+// Definisi kelas turunan Dosen
 class Dosen extends Orang {
     tampilkanPeran() {
         console.log("Peran: Dosen");
     }
 }
 
-class ob extends orang {
-    tapilkanperan() {
-        console.log("peran : ob");
+// Definisi kelas turunan ob
+class Ob extends Orang {
+    tampilkanPeran() { // Fixed typo in method name
+        console.log("Peran: OB");
     }
 }
 
@@ -33,4 +35,4 @@ const ob1 = new Ob();
 orang1.tampilkanPeran();    // Output: Peran: Orang biasa
 mahasiswa1.tampilkanPeran(); // Output: Peran: Mahasiswa
 dosen1.tampilkanPeran();     // Output: Peran: Dosen
-ob1.tampilkanperan():
+ob1.tampilkanPeran();        // Output: Peran: OB
